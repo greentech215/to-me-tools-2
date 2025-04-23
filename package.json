@@ -1,0 +1,25 @@
+{
+  "name": "to-me-tools",
+  "version": "1.0.0",
+  "description": "Aplicativo open-source para planejamento e controle da produção.",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "^49.0.0",                // Expo framework
+    "expo-status-bar": "~49.0.0",     // Status bar component
+    "react": "18.0.0",                // React library
+    "react-dom": "18.0.0",            // React DOM for web
+    "react-native": "0.72.0",         // Core React Native library
+    "react-native-web": "~0.19.0"     // React Native for web support
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"          // Babel for transpiling JavaScript
+  },
+  "author": "greentech215",
+  "license": "MIT"
+}
